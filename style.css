@@ -7,7 +7,7 @@
   }
 
   nav a {
-    color: #93b7be;
+    color:#d5c7bc;
     text-decoration: none;
   }
   
@@ -18,7 +18,7 @@
   }
   
   nav a:hover {
-    color: #d5c7bc;
+    color:  #93b7be;
   }
 
   main {
