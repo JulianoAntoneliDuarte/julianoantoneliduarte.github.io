@@ -11,6 +11,10 @@
     text-decoration: none;
   }
   
+  nav ul {
+    list-style: none;
+  }
+
   nav li {
     /*display: inline-block;*/
     font-size: 20px;
