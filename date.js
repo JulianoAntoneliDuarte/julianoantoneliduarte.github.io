@@ -1,6 +1,6 @@
 try {
     let options =  {
-        weekday: "long"
+        weekday:"long"
         day:"numeric"
         month:"long"
         year:"numeric"
