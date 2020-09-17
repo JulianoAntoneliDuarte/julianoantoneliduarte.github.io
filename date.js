@@ -5,5 +5,5 @@ try {
         month:"long"
         year:"numeric"
     };
-    document.getElementById("currentdate2").textContent = new Date().toLocaleDateString("en-us", options);
+    document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-us", options);
 }
