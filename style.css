@@ -12,7 +12,7 @@
     font-size: 2em;
     color: #454545;
   }
-  
+
   nav a {
     color:#d5c7bc;
     text-decoration: none;
@@ -35,5 +35,10 @@
   main {
     background-color: #93b7be;
     border: 5px solid #d5c7bc;
+  }
+
+  footer {
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
   }
 
