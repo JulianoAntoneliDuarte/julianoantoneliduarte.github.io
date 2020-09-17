@@ -7,10 +7,15 @@
   }
 
   h2 {
-    background-color: #d5c7bc;
-    font-family: "Comic Neue", cursive;
+    background-color: #d5c7bc;    
+    font-family: "Montserrat", sans-serif;
     font-size: 2em;
     color: #454545;
+  }
+
+  h1 {
+    background-color: #93b7be;
+    font-family: "Comic Neue", cursive;
   }
 
   nav a {
