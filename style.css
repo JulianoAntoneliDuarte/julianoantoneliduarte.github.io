@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Montserrat&display=swap");
 
-#content {
-  
-  }
-
   h2 {
     border-bottom: 1px solid #bbb;
   }
@@ -42,7 +38,7 @@
   height: auto;
   float: right;
   }
-  
+
   main {
     margin: 1.25rem auto;
     padding: 1rem;
