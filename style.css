@@ -37,6 +37,12 @@
     font-size: 1.2rem;
   }
 
+  header img {
+  width: 200px;
+  height: auto;
+  float: right;
+  }
+  
   main {
     margin: 1.25rem auto;
     padding: 1rem;
