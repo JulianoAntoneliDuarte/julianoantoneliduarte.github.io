@@ -3,11 +3,11 @@ try {
         weekday:"long",
         day:"numeric",
         month:"long",
-        year:"numeric"
+        year:"numeric"        
     };    
     document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-us",
     options);
     }
     catch (e) {
-        alert("Error with");
+        alert("Error");
     }    
