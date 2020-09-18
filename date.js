@@ -1,13 +1,5 @@
-try {
-    let options = {
-        weekday:"long",
-        day:"numeric",
-        month:"long",
-        year:"numeric"        
-    };    
-    document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-us",
-    options);
-    }
-    catch (e) {
-        alert("Error");
-    }    
+let date = new Date();
+let modified = document.lastModified;
+
+document.getElementById("copyright-year").innerHTML = date.getFullYear();
+document.getElementById("modified-date").innerHTML = modified;
