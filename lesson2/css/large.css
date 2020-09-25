@@ -1,0 +1,42 @@
+main {
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    display: grid;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    max-width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    margin: 1.25rem auto;
+    padding: 1rem;
+    max-width: 1000px;
+    background-color:#033e53;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Comic Neue", cursive;
+    font-size: 1.2rem;
+}
+
+footer {
+    margin: 1.25rem auto;
+    padding: 1rem;
+    max-width: 1000px;
+    text-align: center;
+    background-color:#033e53;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+}
+
+.copyright a {
+    color: #93b7be;
+}
