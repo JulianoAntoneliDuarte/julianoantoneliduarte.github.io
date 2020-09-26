@@ -2,41 +2,52 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
     align-content: center;
     display: grid;
+    grid-gap: 1em;
+    margin-left: 9.5em;
+    margin-right: 9.5em;
 }
-
-p {
-    text-align: center;
+    
+main section {  
+    text-align: center;    
+    border: 1px solid #bbb;
+    padding: 0.5em;
+    font-family: "Montserrat", sans-serif;
 }
-
+    
+a {
+    color:#033e53; 
+}
+    
 img {
     max-width: 150px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
+    
 header {
-    margin: 1.25rem auto;
-    padding: 1rem;
+    margin: 1.25em auto;
+    padding: 0.5em;   
     max-width: 1000px;
     background-color:#033e53;
     text-align: center;
     color: #ffffff;
     font-family: "Comic Neue", cursive;
-    font-size: 1.2rem;
+    font-size: 1.2em;
 }
-
+    
 footer {
-    margin: 1.25rem auto;
-    padding: 1rem;
+    margin: 1.25em auto;
+    padding: 0.5em;
     max-width: 1000px;
     text-align: center;
     background-color:#033e53;
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
+    font-size: 1em;
 }
-
+    
 .copyright a {
     color: #93b7be;
 }
+    
